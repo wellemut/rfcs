@@ -1,17 +1,21 @@
-- Feature Name: (fill me in with a unique ident, `my_awesome_feature`)
-- Start Date: (fill me in with today's date, YYYY-MM-DD)
-- RFC PR: [rust-lang/rfcs#0000](https://github.com/rust-lang/rfcs/pull/0000)
-- Rust Issue: [rust-lang/rust#0000](https://github.com/rust-lang/rust/issues/0000)
+- Feature Name: Metatag
+- Start Date: 30.9.2019
+- RFC PR: ??? https://github.com/kartevonmorgen/kartevonmorgen/issues/598
+- Rust Issue: ??? [rust-lang/rust#0000](https://github.com/rust-lang/rust/issues/0000)
 
 # Summary
 [summary]: #summary
 
-One paragraph explanation of the feature.
+The high diversity of possible hashtags make it quite difficult to find all entries for one topic. We can introduce Meta-tags: They are a container for different tags and are as ease to use as one tag but bring many more results.
 
 # Motivation
 [motivation]: #motivation
+Many movements want to use the map for one topic, but do not want to add one unig tag to all entries of that topic, to make this topic visible on one map.
 
-Why are we doing this? What use cases does it support? What is the expected outcome?
+- The "Social Economy" is a gerenal topic of our map. It can be #socent, #gwö, #b-corp, #sustainabel-finance... But there is no hashtag everyone is using and it is impossible to teach all active mappers to use one common hashtag.
+- #GWÖ is a commonly used hashtag, but some users just use special world like #energiefeld for a #gwö-regionalgroup. If #gwö becomes a Meta Tag, that does not matter
+- We can solve **spelling errors**. If #urbangardening contains the hashtags #urban-guardening and #stadtgarten, we automatically did a translation and connected synonyms and wrong written tags.
+- #Futurefashion wants to create a map of all fair clothing-shops. Untill know a user would have to add all tags like #futurefashion #fairfashion #kleidung 
 
 # Guide-level explanation
 [guide-level-explanation]: #guide-level-explanation
@@ -76,20 +80,5 @@ Please also take into consideration that rust sometimes intentionally diverges f
 # Future possibilities
 [future-possibilities]: #future-possibilities
 
-Think about what the natural extension and evolution of your proposal would
-be and how it would affect the language and project as a whole in a holistic
-way. Try to use this section as a tool to more fully consider all possible
-interactions with the project and language in your proposal.
-Also consider how the this all fits into the roadmap for the project
-and of the relevant sub-team.
-
-This is also a good place to "dump ideas", if they are out of scope for the
-RFC you are writing but otherwise related.
-
-If you have tried and cannot think of any future possibilities,
-you may simply state that you cannot think of anything.
-
-Note that having something written down in the future-possibilities section
-is not a reason to accept the current or a future RFC; such notes should be
-in the section on motivation or rationale in this or subsequent RFCs.
-The section merely provides additional information.
+- When we do legends and categories on any iframes, it can become really usefull to subgroup most of our content under 10 to 20 keywords. https://github.com/kartevonmorgen/kartevonmorgen/issues/372
+- The Glossary of change can improve the search results 
